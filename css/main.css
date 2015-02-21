@@ -1,0 +1,256 @@
+/*
+Garnet:   #981b1f
+Gold:     #fed45c
+*/
+
+body {
+    margin: 0;
+    background-image: url("../images/red-bg.jpg");
+}
+
+#header {
+    width: 100%;
+    min-width: 925px;
+    text-align: center;
+    background-color: black;
+    border-bottom: 5px solid #fed45c;
+    margin-bottom: 20px;
+    position: relative;
+    color: #fed45c;
+}
+
+#header form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+#header > p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+}
+
+
+#nav-header {
+    font-family: "Times New Roman" serif;
+    font-size: 16pt;
+    color: #fed45c;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+}
+
+#wrapper {
+    width: 925px;
+    margin: 0 auto;
+}
+
+#nav-content {
+    margin-bottom: 5em;
+    width: 925px;
+    text-align: center;
+    padding: 1em;
+    border: 5px solid #fed45c;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    float: left;
+}
+
+#nav-content > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#nav-bar {
+    padding-top: 10px;
+    padding-right: 15px;
+    margin: 0;
+    width: 170px;
+}
+
+#nav-bar img {
+    margin-bottom: 15px;
+}
+
+#nav-bar div {
+    width: 100px;
+    height: 40px;
+    background-image: url('../images/button.png');
+    color: #fed45c;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+#nav-bar ul {
+    color: #fed45c;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+
+#nav-bar li {
+    cursor: pointer;
+}
+
+.displayed {
+    font-weight: bold;
+}
+
+.linklist {
+    vertical-align: middle;
+}
+
+.slider-wrapper {
+    width: 730px;
+    height: 480px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    width: 733px;
+    height: 488px;
+    left: 207px;
+    top: 16px;
+    z-index: 50;
+}
+
+.overlay ul {
+    list-style-type: none;
+    font-size: 26px;
+    font-style: none;
+    color: #fed45c;
+    cursor: pointer;
+    margin-top: 155px;
+}
+
+.overlay li {
+    display: inline-block;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 5px;
+    background-color: rgba(152, 27, 31, .5);
+    border-radius: 10px;
+}
+
+#content {
+    display: none;
+    padding: 1em;
+    border: 5px solid #fed45c;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fed45c;
+    float: left;
+    width: 650px;;
+    margin-left: 1em;
+}
+
+#editor-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 100;
+}
+
+#editor {
+    margin: 2em auto;
+    width: 75%;
+    height: 85%;
+    background-color: black;
+    border-radius: 20px;
+    border: 5px solid #981B1F;
+    color: #fed45c;
+    padding: 1em;
+    min-width: 700px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#editor-header {
+    text-align: left;
+}
+
+#editor li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#sub {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+#options {
+    float: left;
+    text-align: left;
+}
+
+.option-chosen {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.editform {
+    margin-top: 4em;
+}
+
+.submit {
+    margin: 2em;
+}
+
+#selectpane {
+    margin-left: 200px;
+}
+
+table {
+    text-align: left;
+    width: 100%;
+    color: #fed45c;
+}
+
+tr {
+    background-color: #484848;
+    border: 5px solid red;
+}
+
+td {
+    padding: 5px 0;
+    padding-left: 5px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.edit {
+    width: 15%;
+}
+
+.remove {
+    width: 20%;
+}
+
+.addpage {
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.addpage:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
